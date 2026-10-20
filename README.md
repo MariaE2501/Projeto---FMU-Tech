@@ -1,2 +1,2 @@
 # Projeto---FMU-Tech
-Aplicativo que ajuda as crianças a exporem seus sentimentos através de um bichinho virtual
+O projeto consiste no desenvolvimento de um aplicativo infantil que utiliza um bichinho virtual para ajudar as crianças a expressarem seus sentimentos e emoções por meio de conversas interativas. A proposta é criar um ambiente acolhedor e divertido, no qual a criança possa falar sobre seu dia, suas preocupações e suas experiências. O aplicativo também prevê a participação dos responsáveis, que poderão receber alertas sobre assuntos que mereçam atenção, contribuindo para o acompanhamento emocional e o bem-estar da criança.
