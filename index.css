@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #fff5fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #a64d7af8;
+    margin-top: 20px;
+}
+
+.bichinho {
+    position: relative;
+    width: min(120vw, 450px);
+    margin: 10px auto;
+    line-height: 0;
+}
+
+.parte {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Sobrepõe todas as partes à imagem-base */
+.parte:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.titulo-container {
+    position: relative;
+    width: min(65vw, 300px);
+    margin: 60px auto;
+}
+
+
+
+.placa {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.titulo-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0;
+    color: #080503;
+    font-size: clamp(20px, 4vw, 32px);
+    text-align: center;
+    text-shadow: 1px 1px 2px #f5d9b5;
+}
