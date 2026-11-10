@@ -16,6 +16,8 @@ h1 {
     width: min(120vw, 450px);
     margin: 10px auto;
     line-height: 0;
+    top: -320px;
+    left: 05%;
 }
 
 .parte {
@@ -41,16 +43,31 @@ h1 {
 
 
 
-.placa {
-    display: block;
+/* ------------------- PATA ------------------*/
+.pata2 {
+  position: absolute;
     width: 100%;
     height: auto;
+    top: 09px;
+    left: 04%;
+    z-index: 3;
+}
+
+/* ---------------  PLACA -------------------*/
+.placa {
+    display: block;
+    width: 110%;
+    position: relative; /*FAZ COM QUE SEJA POSSIVEL TIRR  PLACA DO LUGAR*/
+    top: 250px; /*ABAIXA A IMAGEM*/
+    z-index: 2;
+    right: 02%;
 }
 
 .titulo-container h1 {
+     z-index: 4;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 150%;
+    left: 54%;
     transform: translate(-50%, -50%);
     width: 90%;
     margin: 0;
@@ -58,4 +75,36 @@ h1 {
     font-size: clamp(20px, 4vw, 32px);
     text-align: center;
     text-shadow: 1px 1px 2px #f5d9b5;
+}
+
+
+
+
+/*----------- BARRA DE CARREGAMENTO ------------------*/
+
+.carregamento {
+    width: 70%;
+    max-width: 300px;
+    height: 15px;
+    background: #f3c8dc;
+    border: 2px solid #a64d7a;
+    border-radius: 20px;
+    margin: -430px auto 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.barra-progresso {
+    width: 0%;
+    height: 100%;
+    background: #a64d7a;
+    border-radius: 20px;
+    transition: width 0.1s linear;
+}
+
+.texto-carregamento {
+    color: #a64d7a;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
 }
