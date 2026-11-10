@@ -14,6 +14,7 @@ h1 {
 .bichinho {
     position: relative;
     width: min(90vw, 450px);
+    top: 65px;
     margin: 10px auto;
     line-height: 0;
 }
@@ -41,24 +42,6 @@ h1 {
 
 
 
-.placa {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.titulo-container h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    margin: 0;
-    color: #080503;
-    font-size: clamp(20px, 4vw, 32px);
-    text-align: center;
-    text-shadow: 1px 1px 2px #f5d9b5;
-}
 
 
 
