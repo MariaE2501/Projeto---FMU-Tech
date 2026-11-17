@@ -15,7 +15,7 @@ h1 {
 .bichinho {
     position: relative;
     width: min(90vw, 450px);
-    top: 140px;
+    top:  90px;
     margin: 10px auto;
     line-height: 0;
 }
