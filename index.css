@@ -86,8 +86,8 @@ h1 {
     width: 70%;
     max-width: 300px;
     height: 15px;
-    background: #f3c8dc;
-    border: 2px solid #a64d7a;
+    background: #407e69;
+    border: 2px solid #407e69;
     border-radius: 20px;
     margin: -430px auto 0 auto;
     position: relative;
@@ -99,13 +99,13 @@ h1 {
 .barra-progresso {
     width: 0%;
     height: 100%;
-    background: #a64d7a;
+    background: #6dbbae;
     border-radius: 20px;
     transition: width 0.1s linear;
 }
 
 .texto-carregamento {
-    color: #a64d7a;
+    color: #38857a;
     font-size: 14px;
     text-align: center;
     margin-top: 5px;
